@@ -1,4 +1,4 @@
-db.reteta.insert({
+db.retete.insert({
     nume: "Salata de sfecla cu feta",
     origine: "Jamie at Home: Cook Your Way to the Good Life (Hyperion, 2008) by Jamie Oliver.",
     origine_url: "http://food52.com/recipes/14609-jamie-oliver-s-smoked-beets",

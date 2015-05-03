@@ -1,14 +1,14 @@
 [
     categorie: {
         nume: "...",
-        ingrediente: {
+        ingrediente: [{
             nume: "...",
             comentariu: [],
             cantitate: $sum(),
             um: "",
-            reteta_abreviatie: "A",
-            zi_index: 1
-        }
+            reteta_abreviatie: ["A", "B"],
+            zi_index: [1,4]
+        }]
     }
 ];
 
@@ -21,14 +21,31 @@
 db.plan.aggregate({
         $unwind: "$zile"
     }, {
-        $unwind: "$zile.reteta.ingrediente"
+        $unwind: "$zile.retete.ingrediente"
     }, {
         $match: {
             saptamana: 19
         }
     }, {
         $group: {
-            "_id": "$zile.reteta.ingrediente.categorie",
+            "_id": "$zile.retete.ingrediente.categorie",
+            count: {
+                $sum: 1
+            }
+        }
+    }
+
+);
+
+db.plan.aggregate({
+        $unwind: "$zile"
+    }, {
+        $match: {
+            saptamana: 19
+        }
+    }, {
+        $group: {
+            "_id": "$zile.retete.ingrediente.categorie",
             count: {
                 $sum: 1
             }

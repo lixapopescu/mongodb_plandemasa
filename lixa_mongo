@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+mongo $1 < "$2" >/tmp/out.js
+cat /tmp/out.js

@@ -1,4 +1,4 @@
-db.reteta.insert({
+db.retete.insert({
     nume: "Placinta cu spanac si feta",
     origine_url: "http://www.channel4.com/programmes/jamies-30-minute-meals/articles/all/spinach-and-feta-filo-pie-with-coated-ice-cream-meal-recipe",
     origine: "Recipe taken from Jamie's 30 Minute Meals by Jamie Oliver ©Jamie Oliver 2010. All rights reserved",
@@ -71,13 +71,13 @@ db.reteta.insert({
     origine_url: "http://food52.com/recipes/14609-jamie-oliver-s-smoked-beets",
     ingrediente: [{
             nume: "sfecla",
-            comentariu: "cu frunze, daca e posibil"
+            comentariu: "cu frunze, daca e posibil",
             cantitate: "8",
             um: "buc.",
             categorie: "legume"
         }, {
             nume: "rozmarin",
-            comentariu: "proaspat"
+            comentariu: "proaspat",
             cantitate: "1",
             um: "tija",
             categorie: "condimente"
@@ -98,7 +98,7 @@ db.reteta.insert({
             categorie: "camara"
         }, {
             nume: "piper",
-            comentariu: "proaspat macinat"
+            comentariu: "proaspat macinat",
             cantitate: "",
             um: "",
             categorie: "camara"
@@ -121,7 +121,7 @@ db.reteta.insert({
             categorie: "lactate"
         }, {
             nume: "lamaie",
-            comentariu: "coaja si sucul"
+            comentariu: "coaja si sucul",
             cantitate: "0.5",
             um: "buc.",
             categorie: "fructe"

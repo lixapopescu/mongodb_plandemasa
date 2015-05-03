@@ -1,4 +1,4 @@
-db.reteta.find({
+db.retete.find({
         nume: "Placinta cu spanac si feta"
     })
     .forEach(function(r) {
@@ -18,7 +18,7 @@ db.reteta.find({
 
     });
 
-db.reteta.find({
+db.retete.find({
         nume: "Salata de sfecla cu feta"
     })
     .forEach(function(r) {
@@ -38,19 +38,3 @@ db.reteta.find({
             );
 
     });
-
-db.plan.aggregate({
-    $match: {
-        saptamana: 19
-    }
-}, {
-    $project: {
-
-            new_an: $an
-    },
-    {
-    	$group: 
-    }
-});
-
-
