@@ -7,7 +7,7 @@ db.retete.find({
             saptamana: 19,
             prima_zi: new Date('May 4, 2015'),
             ultima_zi: new Date('May 11, 2015'),
-            an: "2015",
+            an: 2015,
             zile: [{
                 index: 1, //Luni
                 abreviatie: "A",
