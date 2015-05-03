@@ -11,7 +11,7 @@ db.retete.find({
             zile: [{
                 index: 1, //Luni
                 abreviatie: "A",
-                reteta: r,
+                retete: r,
                 categorie: "Fel principal"
             }]
         });
@@ -29,7 +29,7 @@ db.retete.find({
                         zile: {
                             index: 4, //Joi
                             abreviatie: "E",
-                            reteta: r,
+                            retete: r,
                             categorie: "Garnitura"
                         }
                     }

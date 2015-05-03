@@ -1,26 +1,20 @@
 db.plan.aggregate({
     $unwind: "$zile"
 }, {
-    $unwind: "$zile.reteta.ingrediente"
+    $unwind: "$zile.retete.ingrediente"
 }, {
     $match: {
         saptamana: 19
     }
 }, {
     $group: {
-        "_id": "$zile.reteta.ingrediente.categorie",
-        in_total: {
-            $sum: 1
+        "_id": {
+            categorie: "$zile.retete.ingrediente.categorie",
+            nume_ingred: "$zile.retete.ingrediente.nume",
+            um: "$zile.retete.ingrediente.um"
         },
-        ingrediente_separate: {
-            $addToSet: "$zile.reteta.ingrediente"
+        ingred: {
+            $push: "$zile.retete.ingrediente"
         }
-    }
-}, {
-    $group: {
-        "_id": "$ingrediente_separate.nume",
-        t: {$sum: "$ingrediente_separate.cantitate"},
-        ingrediente_separate: {$push: "$ingrediente_separate"},
-        categorie: {$first: "$_id"}
     }
 });
