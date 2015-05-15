@@ -9,6 +9,7 @@ db.retete.insert({
     origine_url: "http://food52.com/recipes/14609-jamie-oliver-s-smoked-beets",
     origine_limba: "en",
     etichete: ["salata", "sfecla"],
+    poza: "https://d2k9njawademcf.cloudfront.net/slides/6862/original/092711-food52-258.jpg?1317273655",
     persoane: 4,
     timp: 20,
     nivel: 1,

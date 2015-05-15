@@ -9,6 +9,7 @@ db.retete.insert({
     origine_limba: "en",
     origine: "www.jamieoliver.com",
     etichete: ["miel", "couscous", "tocanita", "sos de rosii", "supa de pui", "tocanita"],
+    poza: "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/335_1_1349877333_lrg.jpg",
     persoane: 4,
     timp: 110,
     nivel: 1,

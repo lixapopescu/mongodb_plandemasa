@@ -9,6 +9,7 @@ db.retete.insert({
     origine_limba: "ro",
     origine: "http://www.dulciurifeldefel.ro/",
     etichete: ["carne tocata", "sos rosii"],
+    poza: "http://3.bp.blogspot.com/-VMT7e2oPHKU/T2m2RARXhnI/AAAAAAAAKGY/GzBtHmgrHMQ/s1600/perisoare+in+sos+de+rosii.JPG",
     persoane: 4,
     nivel: 1,
     limba: "ro",

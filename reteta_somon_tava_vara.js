@@ -5,10 +5,11 @@ print("Removed ", numeReteta);
 
 db.retete.insert({
     nume: numeReteta,
-    origine_url: "http://www.jamieoliver.com/recipes/fish-recipes/summer-tray-baked-salmon/#LW9bgRzjLwteeb4s.97",
+    origine_url: "http://www.jamieoliver.com/recipes/fish-recipes/summer-tray-baked-salmon",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
     etichete: ["somon", "cartofi", "fasole verde", "legume"],
+    poza: "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/1016_2_1426868777_lrg.jpg",
     persoane: 4,
     timp: 45,
     nivel: 1,

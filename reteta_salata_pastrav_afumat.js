@@ -1,4 +1,4 @@
-var numeReteta = "Salata de patrav afumat cu cartofi noi";
+var numeReteta = "Salata de pastrav afumat cu cartofi noi";
 
 db.retete.remove({nume: numeReteta});
 print("Removed ", numeReteta);
@@ -9,6 +9,7 @@ db.retete.insert({
     origine_limba: "en",
     origine: "www.jamieoliver.com",
     etichete: ["salata", "peste", "pastrav", "cartofi noi"],
+    poza: "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/791_5_1350296500_lrg.jpg",
     persoane: 4,
     timp: 30,
     nivel: 1,

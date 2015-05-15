@@ -2,7 +2,7 @@ db.plan.remove({saptamana: 21, an: 2015});
 print("Removed Plan 21/2015");
 
 db.retete.find({
-        nume: "Salata de patrav afumat cu cartofi noi"
+        nume: "Salata de pastrav afumat cu cartofi noi"
     })
     .forEach(function(r) {
         db.plan.insert({
@@ -14,6 +14,7 @@ db.retete.find({
             pinterest_url: "https://www.pinterest.com/plandemasa/plan-212005/",
             zile: [{
                 index: 1, //Luni
+                nume: "Luni",
                 abreviatie: "A",
                 retete: r,
                 etichete: ["salata", "peste"],
@@ -35,6 +36,7 @@ db.retete.find({
                     $addToSet: {
                         zile: {
                             index: 2, //Marti
+                            nume: "Marti",
                             abreviatie: "B",
                             retete: r,
                             categorie: "Fel principal",
@@ -59,6 +61,7 @@ db.retete.find({
                     $addToSet: {
                         zile: {
                             index: 3, //Miercuri
+                            nume: "Miercuri",
                             abreviatie: "C",
                             retete: r,
                             categorie: "Fel principal",
@@ -82,6 +85,7 @@ db.retete.find({
                     $addToSet: {
                         zile: {
                             index: 4, //Joi
+                            nume: "Joi",
                             abreviatie: "D",
                             retete: r,
                             categorie: "Fel principal",
@@ -105,6 +109,7 @@ db.retete.find({
                     $addToSet: {
                         zile: {
                             index: 6, //Sambata
+                            nume: "Sambata",
                             abreviatie: "E",
                             retete: r,
                             categorie: "Fel principal",
@@ -129,6 +134,7 @@ db.retete.find({
                     $addToSet: {
                         zile: {
                             index: 7, //Duminica
+                            nume: "Duminica",
                             abreviatie: "F",
                             retete: r,
                             categorie: "Fel principal",

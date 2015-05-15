@@ -10,6 +10,7 @@ db.retete.insert({
     origine: "www.jamieoliver.com",
     origine_carte: "Jamie's 30-Minute Meals Recipe",
     etichete: ["pui", "mustar", "cartofi", "piept de pui", "30 minute", "praz"],
+    poza: "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/352_1_1349701358_lrg.jpg",
     persoane: 6,
     timp: 30,
     nivel: 2,
