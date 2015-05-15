@@ -69,7 +69,7 @@ db.retete.insert({
                 nume: "cimbru",
                 cantitate: 1,
                 um: "leg.",
-                categorie: "mica"
+                categorie: "condimente"
             }]
         }, {
             pentru: "asezonare",
