@@ -1,5 +1,10 @@
+var numeReteta = "Chiftelute cu mozzarella";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Chiftelute cu mozzarella",
+    nume: numeReteta,
     origine_url: "http://www.timkemp.com/recipes/entree/jamiemeatball.htm",
     origine_url_2: "http://recipecircus.com/recipes/carolyn/PASTA/Jamie_Oliver39s_Basic_Tomato_Sauce.html",
     origine_limba: "en",
@@ -184,4 +189,6 @@ db.retete.insert({
         pentru: "chiftelute",
         text: "Cam peste 10-15 min, chiftelutele sunt gata. Da cuptorul la 200°C. Pune-le intr-o tava mai inalta, toarna peste sosul, apoi mozzarella rupta in bucati si parmezanul ras. Pune totul la cuptor pentru 10-15 min, pana cand parmezanul e auriu."
     }]
-})
+});
+
+print("Added new ", numeReteta);

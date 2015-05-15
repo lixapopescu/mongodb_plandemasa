@@ -1,3 +1,8 @@
+var numeReteta = "Pui cu mustar, cartofi rapizi si verdeturi";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
     nume: "Pui cu mustar, cartofi rapizi si verdeturi",
     origine_url: "http://www.jamieoliver.com/recipes/chicken-recipes/mustard-chicken-quick-dauphinoise-greens-black-forest-affogato/",
@@ -205,4 +210,6 @@ db.retete.insert({
         pentru: "gratin",
         text: "Du la masa. Pofta buna!"
     }]
-})
+});
+
+print("Added new ", numeReteta);

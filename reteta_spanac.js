@@ -1,5 +1,10 @@
+var numeReteta = "Placinta cu spanac si feta";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Placinta cu spanac si feta",
+    nume: numeReteta,
     origine_url: "http://www.channel4.com/programmes/jamies-30-minute-meals/articles/all/spinach-and-feta-filo-pie-with-coated-ice-cream-meal-recipe",
     origine_limba: "en",
     origine_carte: "Jamie's 30 Minute Meals by Jamie Oliver ©Jamie Oliver 2010. All rights reserved",
@@ -70,3 +75,5 @@ db.retete.insert({
         text: "Check the pie in 10-15 minutes."
     }]
 });
+
+print("Added new ", numeReteta);

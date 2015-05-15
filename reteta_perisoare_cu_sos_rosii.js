@@ -1,5 +1,10 @@
+var numeReteta = "Perisoare cu sos de rosii";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Perisoare cu sos de rosii",
+    nume: numeReteta,
     origine_url: "http://www.dulciurifeldefel.ro/perisoare-cu-sos-de-rosii/",
     origine_limba: "ro",
     origine: "http://www.dulciurifeldefel.ro/",
@@ -94,4 +99,6 @@ db.retete.insert({
         ordine: 7,
         text: "Pune chiftelutele in sos si lasa-le pe foc 30 min sau pana cand ajunge la consistenta dorita."
     }]
-})
+});
+
+print("Added new ", numeReteta);

@@ -1,5 +1,10 @@
+var numeReteta = "Salata de patrav afumat cu cartofi noi";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Salata de patrav afumat cu cartofi noi",
+    nume: numeReteta,
     origine_url: "http://www.jamieoliver.com/recipes/fish-recipes/smoked-trout-and-jersey-royal-salad/",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
@@ -87,3 +92,5 @@ db.retete.insert({
         text: "Imparte salata in portii individuale si pune pastravul afumat deasupra, desfacandu-l in straturi."
     }]
 });
+
+print("Added new ", numeReteta);

@@ -1,5 +1,10 @@
+var numeReteta = "Somon la tava, de vara";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Somon la tava, de vara",
+    nume: numeReteta,
     origine_url: "http://www.jamieoliver.com/recipes/fish-recipes/summer-tray-baked-salmon/#LW9bgRzjLwteeb4s.97",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
@@ -126,3 +131,5 @@ db.retete.insert({
         text: "Cand servesti, pune peste si sos din tava."
     }]
 });
+
+print("Added new ", numeReteta);

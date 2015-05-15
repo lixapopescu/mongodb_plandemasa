@@ -1,3 +1,6 @@
+db.plan.remove({saptamana: 21, an: 2015});
+print("Removed Plan 21/2015");
+
 db.retete.find({
         nume: "Salata de patrav afumat cu cartofi noi"
     })
@@ -138,3 +141,5 @@ db.retete.find({
             );
 
     });
+
+print("Added Plan 21/2015");

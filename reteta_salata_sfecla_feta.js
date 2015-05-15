@@ -1,5 +1,10 @@
+var numeReteta = "Salata de sfecla cu feta";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Salata de sfecla cu feta",
+    nume: numeReteta,
     origine_carte: "Jamie at Home: Cook Your Way to the Good Life (Hyperion, 2008) by Jamie Oliver.",
     origine_url: "http://food52.com/recipes/14609-jamie-oliver-s-smoked-beets",
     origine_limba: "en",
@@ -86,3 +91,5 @@ db.retete.insert({
         text: "To serve, divide the dressed beets between four salad plates. Top each plate with a spoonful of cottage cheese dressing. Scatter over the remaining herbs and enjoy!"
     }]
 });
+
+print("Added new ", numeReteta);

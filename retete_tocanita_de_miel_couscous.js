@@ -1,5 +1,10 @@
+var numeReteta = "Tocanita de miel cu couscous";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Tocanita de miel cu couscous",
+    nume: numeReteta,
     origine_url: "http://www.jamieoliver.com/recipes/lamb-recipes/mediterranean-braised-lamb-and-couscous/",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
@@ -83,4 +88,6 @@ db.retete.insert({
         pentru: "couscous",
         text: "Pune couscous-ul intr-un bol mare si toarna supa de pui clocotita peste. Ar trebui ca abia sa il acopere. Lasa-l sa stea acoperit cu un capac 10 min. Aeriseste-l cu o furculita inainte de servire."
     }]
-})
+});
+
+print("Added new ", numeReteta);
