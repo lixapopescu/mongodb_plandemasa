@@ -17,60 +17,67 @@ db.retete.insert({
         proteine: 30.2
     }],
     ingrediente: [{
-        nume: "sare de mare",
-        categorie: "condimente"
+        pentru: "legume",
+        lista: [{
+            nume: "sare de mare",
+            categorie: "condimente"
+        }, {
+            nume: "piper proaspat macinat",
+            categorie: "condimente"
+        }, {
+            nume: "cartofi noi",
+            cantitate: 700,
+            um: "g",
+            categorie: "legume"
+        }, {
+            nume: "fasole verde",
+            cantitate: 200,
+            um: "g",
+            categorie: "legume"
+        }, {
+            nume: "fasole galbena",
+            cantitate: 100,
+            um: "g",
+            categorie: "legume",
+            comentariu: "optional"
+        }, {
+            nume: "mazare",
+            cantitate: 100,
+            um: "g",
+            categorie: "legume",
+            comentariu: "optional"
+        }, {
+            nume: "unt",
+            cantitate: 55,
+            um: "g",
+            categorie: "lactate"
+        }, {
+            nume: "busuioc",
+            cantitate: 1,
+            um: "leg.",
+            categorie: "condimente"
+        }, {
+            nume: "marar",
+            cantitate: 1,
+            um: "leg.",
+            categorie: "condimente",
+            comentariu: "sau frunze de fenicul"
+
+        }]
     }, {
-        nume: "piper proaspat macinat",
-        categorie: "condimente"
-    }, {
-        nume: "cartofi noi",
-        cantitate: 700,
-        um: "g",
-        categorie: "legume"
-    }, {
-        nume: "fasole verde",
-        cantitate: 200,
-        um: "g",
-        categorie: "legume"
-    }, {
-        nume: "fasole galbena",
-        cantitate: 100,
-        um: "g",
-        categorie: "legume",
-        comentariu: "optional"
-    }, {
-        nume: "mazare",
-        cantitate: 100,
-        um: "g",
-        categorie: "legume",
-        comentariu: "optional"
-    }, {
-        nume: "unt",
-        cantitate: 55,
-        um: "g",
-        categorie: "lactate"
-    }, {
-        nume: "lamaie",
-        cantitate: 2,
-        um: "buc.",
-        categorie: "fructe"
-    }, {
-        nume: "busuioc",
-        cantitate: 1,
-        um: "leg.",
-        categorie: "condimente"
-    }, {
-        nume: "marar",
-        cantitate: 1,
-        um: "leg.",
-        categorie: "condimente",
-        comentariu: "sau frunze de fenicul"
-    }, {
-        nume: "somon",
-        cantitate: 800,
-        um: "g",
-        categorie: "peste",
-        comentariu: "cu piele, dezosat, taiat in portii"
+        pentru: "somon",
+        lista: [{
+            nume: "somon",
+            cantitate: 800,
+            um: "g",
+            categorie: "peste",
+            comentariu: "cu piele, dezosat, taiat in portii"
+        }, {
+            nume: "lamaie",
+            cantitate: 2,
+            um: "buc.",
+            categorie: "fructe"
+        }]
     }],
     instructiuni: [{
         ordine: 1,

@@ -1,8 +1,16 @@
 db.retete.insert({
     nume: "Salata de sfecla cu feta",
-    origine: "Jamie at Home: Cook Your Way to the Good Life (Hyperion, 2008) by Jamie Oliver.",
+    origine_carte: "Jamie at Home: Cook Your Way to the Good Life (Hyperion, 2008) by Jamie Oliver.",
     origine_url: "http://food52.com/recipes/14609-jamie-oliver-s-smoked-beets",
+    origine_limba: "en",
+    etichete: ["salata", "sfecla"],
+    persoane: 4,
+    timp: 20,
+    nivel: 1,
+    limba: "ro",
     ingrediente: [{
+        pentru: "salata",
+        lista: [{
             nume: "sfecla",
             comentariu: "cu frunze, daca e posibil",
             cantitate: 8,
@@ -21,31 +29,24 @@ db.retete.insert({
             categorie: "camara"
         }, {
             nume: "ulei de masline",
-//            cantitate: 0,
-            um: "",
             categorie: "camara"
         }, {
             nume: "sare de mare",
-//            cantitate: "",
-            um: "",
             categorie: "camara"
         }, {
-            nume: "piper",
-            comentariu: "proaspat macinat",
-//            cantitate: "",
-            um: "",
+            nume: "piper proaspat macinat",
             categorie: "camara"
         }, {
             nume: "patrunjel",
             comentariu: "proaspat",
             cantitate: 1,
-            um: "legatura",
+            um: "leg.",
             categorie: "condimente"
         }, {
             nume: "busuioc",
             comentariu: "proaspat",
             cantitate: 1,
-            um: "legatura",
+            um: "leg.",
             categorie: "condimente"
         }, {
             nume: "branza",
@@ -63,9 +64,8 @@ db.retete.insert({
             cantitate: 3,
             um: "tija",
             categorie: "condimente"
-        }
-
-    ],
+        }]
+    }],
     instructiuni: [{
         ordine: 1,
         text: "First, light your charcoal barbecue or fire. Wash the beets and snip off the greens, reserving them. Fold a large piece of foil -- about 12-18\" (24-36\" unfolded), depending on the size of your beets -- in half to form a double layer. Lay the greens, then the beets, then the rosemary on top of the foil. (Note: if you don't have greens with your beets -- or want to save them to cook separately -- that's okay, just make sure the coals are at medium heat, not flaming, when you add your packet of beets.)"

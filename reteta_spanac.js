@@ -1,55 +1,63 @@
 db.retete.insert({
     nume: "Placinta cu spanac si feta",
     origine_url: "http://www.channel4.com/programmes/jamies-30-minute-meals/articles/all/spinach-and-feta-filo-pie-with-coated-ice-cream-meal-recipe",
-    origine: "Recipe taken from Jamie's 30 Minute Meals by Jamie Oliver ©Jamie Oliver 2010. All rights reserved",
+    origine_limba: "en",
+    origine_carte: "Jamie's 30 Minute Meals by Jamie Oliver ©Jamie Oliver 2010. All rights reserved",
+    etichete: ["placinta", "spanac"],
+    persoane: 4,
+    nivel: 1,
+    limba: "ro",
+    timp: 30,
     ingrediente: [{
-        nume: "samburi de pin",
-        cantitate: 100,
-        um: "g",
-        categorie: "alte"
-    }, {
-        nume: "oua",
-        cantitate: 5,
-        um: "buc.",
-        categorie: "alte"
-    }, {
-        nume: "feta/telemea",
-        cantitate: 300,
-        um: "g",
-        categorie: "lactate"
-    }, {
-        nume: "oregano",
-        um: "",
-        categorie: "condimente"
-    }, {
-        nume: "lamaie",
-        cantitate: 1,
-        um: "buc.",
-        categorie: "fructe"
-    }, {
-        nume: "unt",
-        cantitate: 30,
-        um: "g",
-        categorie: "lactate"
-    }, {
-        nume: "spanac mic",
-        cantitate: 450,
-        um: "g",
-        categorie: "legume"
-    }, {
-        nume: "aluat de placinta",
-        cantitate: 1,
-        um: "buc.",
-        categorie: "alte"
-    }, {
-        nume: "piper",
-        um: "",
-        categorie: "condimente"
-    }, {
-        nume: "nucsoara",
-        cantitate: 1,
-        um: "buc.",
-        categorie: "condimente"
+        pentru: "placinta",
+        lista: [{
+            nume: "samburi de pin",
+            cantitate: 100,
+            um: "g",
+            categorie: "alte"
+        }, {
+            nume: "oua",
+            cantitate: 5,
+            um: "buc.",
+            categorie: "alte"
+        }, {
+            nume: "feta/telemea",
+            cantitate: 300,
+            um: "g",
+            categorie: "lactate"
+        }, {
+            nume: "oregano",
+            um: "",
+            categorie: "condimente"
+        }, {
+            nume: "lamaie",
+            cantitate: 1,
+            um: "buc.",
+            categorie: "fructe"
+        }, {
+            nume: "unt",
+            cantitate: 30,
+            um: "g",
+            categorie: "lactate"
+        }, {
+            nume: "spanac mic",
+            cantitate: 450,
+            um: "g",
+            categorie: "legume"
+        }, {
+            nume: "aluat de placinta",
+            cantitate: 1,
+            um: "buc.",
+            categorie: "alte"
+        }, {
+            nume: "piper proaspat macinat",
+            categorie: "condimente"
+        }, {
+            nume: "nucsoara",
+            cantitate: 1,
+            um: "buc.",
+            categorie: "condimente"
+        }]
     }],
     instructiuni: [{
         ordine: 1,

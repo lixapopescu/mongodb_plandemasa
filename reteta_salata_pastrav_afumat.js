@@ -17,58 +17,61 @@ db.retete.insert({
         proteine: 19.8
     }],
     ingrediente: [{
-        nume: "cartofi noi",
-        cantitate: 800,
-        um: "g",
-        categorie: "legume"
-    }, {
-        nume: "smantana",
-        cantitate: 2,
-        um: "Lg",
-        categorie: "lactate"
-    }, {
-        nume: "lamaie",
-        cantitate: 1,
-        um: "buc.",
-        categorie: "fructe",
-        comentariu: "coaja si sucul"
-    }, {
-        nume: "ceapa rosie",
-        cantitate: 1,
-        um: "buc.",
-        categorie: "legume",
-        comentariu: "curatata si taiata fin"
-    }, {
-        nume: "patrunjel",
-        cantitate: 1,
-        um: "leg.",
-        categorie: "condimente",
-        comentariu: "frunzele, taiate grosier"
-    }, {
-        nume: "capere",
-        cantitate: 100,
-        um: "g",
-        categorie: "condimente",
-        comentariu: "scurse si eventual clatite"
-    }, {
-        nume: "nasturel",
-        cantitate: 1,
-        um: "pumn",
-        categorie: "legume",
-        comentariu: "sau alt tip de salata, tocata",
-        url: "https://ierburiuitate.wordpress.com/tag/nasturel/"
-    }, {
-        nume: "sare de mare",
-        categorie: "condimente"
-    }, {
-        nume: "piper proaspat macinat",
-        categorie: "condimente"
-    }, {
-        nume: "pastrav afumat",
-        cantitate: 300,
-        um: "g",
-        categorie: "peste",
-        comentariu: "din surse sustenabile"
+        pentru: "salata",
+        lista: [{
+            nume: "cartofi noi",
+            cantitate: 800,
+            um: "g",
+            categorie: "legume"
+        }, {
+            nume: "smantana",
+            cantitate: 2,
+            um: "Lg",
+            categorie: "lactate"
+        }, {
+            nume: "lamaie",
+            cantitate: 1,
+            um: "buc.",
+            categorie: "fructe",
+            comentariu: "coaja si sucul"
+        }, {
+            nume: "ceapa rosie",
+            cantitate: 1,
+            um: "buc.",
+            categorie: "legume",
+            comentariu: "curatata si taiata fin"
+        }, {
+            nume: "patrunjel",
+            cantitate: 1,
+            um: "leg.",
+            categorie: "condimente",
+            comentariu: "frunzele, taiate grosier"
+        }, {
+            nume: "capere",
+            cantitate: 100,
+            um: "g",
+            categorie: "condimente",
+            comentariu: "scurse si eventual clatite"
+        }, {
+            nume: "nasturel",
+            cantitate: 1,
+            um: "pumn",
+            categorie: "legume",
+            comentariu: "sau alt tip de salata, tocata",
+            url: "https://ierburiuitate.wordpress.com/tag/nasturel/"
+        }, {
+            nume: "sare de mare",
+            categorie: "condimente"
+        }, {
+            nume: "piper proaspat macinat",
+            categorie: "condimente"
+        }, {
+            nume: "pastrav afumat",
+            cantitate: 300,
+            um: "g",
+            categorie: "peste",
+            comentariu: "din surse sustenabile"
+        }]
     }],
     instructiuni: [{
         ordine: 1,

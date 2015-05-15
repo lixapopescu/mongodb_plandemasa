@@ -68,3 +68,73 @@ db.retete.find({
             );
 
     });
+db.retete.find({
+        nume: "Pui cu mustar, cartofi rapizi si verdeturi"
+    })
+    .forEach(function(r) {
+            db.plan.update({
+                    saptamana: 21,
+                    an: 2015
+                }, {
+                    $addToSet: {
+                        zile: {
+                            index: 4, //Joi
+                            abreviatie: "D",
+                            retete: r,
+                            categorie: "Fel principal",
+                            etichete: ["pui", "legume"],
+                            pinterest_url: "https://www.pinterest.com/pin/547257792196793304/"
+                        }
+                    }
+                }
+
+            );
+
+    });
+db.retete.find({
+        nume: "Chiftelute cu mozzarella"
+    })
+    .forEach(function(r) {
+            db.plan.update({
+                    saptamana: 21,
+                    an: 2015
+                }, {
+                    $addToSet: {
+                        zile: {
+                            index: 6, //Sambata
+                            abreviatie: "E",
+                            retete: r,
+                            categorie: "Fel principal",
+                            etichete: ["carne tocata"],
+                            pinterest_url: "https://www.pinterest.com/pin/547257792196793274/"
+                        }
+                    }
+                }
+
+            );
+
+    });
+
+db.retete.find({
+        nume: "Tocanita de miel cu couscous"
+    })
+    .forEach(function(r) {
+            db.plan.update({
+                    saptamana: 21,
+                    an: 2015
+                }, {
+                    $addToSet: {
+                        zile: {
+                            index: 7, //Duminica
+                            abreviatie: "F",
+                            retete: r,
+                            categorie: "Fel principal",
+                            etichete: ["miel"],
+                            pinterest_url: "https://www.pinterest.com/pin/547257792196793209/"
+                        }
+                    }
+                }
+
+            );
+
+    });
