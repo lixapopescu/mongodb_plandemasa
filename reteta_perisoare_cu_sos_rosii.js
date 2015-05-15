@@ -27,7 +27,7 @@ db.retete.insert({
             categorie: "legume",
             comentariu: "mai mari (sau echivalent)"
         }, {
-            nume: "ou",
+            nume: "oua",
             cantitate: 3,
             um: "buc",
             categorie: "alte"
