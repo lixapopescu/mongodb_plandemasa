@@ -37,19 +37,19 @@ db.retete.insert({
         }, {
             nume: "lamaie",
             cantitate: 1,
-            um: "buc.",
+            um: "buc",
             categorie: "fructe",
             comentariu: "coaja si sucul"
         }, {
             nume: "ceapa rosie",
             cantitate: 1,
-            um: "buc.",
+            um: "buc",
             categorie: "legume",
             comentariu: "curatata si taiata fin"
         }, {
             nume: "patrunjel",
             cantitate: 1,
-            um: "leg.",
+            um: "leg",
             categorie: "condimente",
             comentariu: "frunzele, taiate grosier"
         }, {
@@ -81,16 +81,16 @@ db.retete.insert({
     }],
     instructiuni: [{
         ordine: 1,
-        text: "Pune cartofii intr-un vas cu apa clocotita si fierbe pana sunt gata. Strecoara si, eventual, lasa sa se raceasca."
+        text: "Pune cartofii intr-un vas cu apa clocotita si fierbe pana sunt gata. Strecoara si, eventual, lasa sa se raceasca"
     }, {
         ordine: 2,
-        text: "Intre timp, intr-un vas amesteca smantana cu coaja si sucul de lamaie. Pregateste celelalte ingrediente."
+        text: "Intre timp, intr-un vas amesteca smantana cu coaja si sucul de lamaie. Pregateste celelalte ingrediente"
     }, {
         ordine: 3,
-        text: "In vas, adauga cartofii, ceapa, patrunjelul, caperele si nasturelul. Adauga sare si piper dupa gust si amesteca bine."
+        text: "In vas, adauga cartofii, ceapa, patrunjelul, caperele si nasturelul. Adauga sare si piper dupa gust si amesteca bine"
     }, {
         ordine: 4,
-        text: "Imparte salata in portii individuale si pune pastravul afumat deasupra, desfacandu-l in straturi."
+        text: "Imparte salata in portii individuale si pune pastravul afumat deasupra, desfacandu-l in straturi"
     }]
 });
 

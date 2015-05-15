@@ -27,7 +27,7 @@ db.retete.insert({
         lista: [{
             nume: "ceapa",
             cantitate: 1,
-            um: "buc.",
+            um: "buc",
             categorie: "legume",
             comentariu: "mica"
         }, {
@@ -40,15 +40,21 @@ db.retete.insert({
             categorie: "carne",
             comentariu: "pulpa sau picior"
         }, {
+            nume: "usturoi",
+            cantitate: 1,
+            um: "cat",
+            categorie: "condimente",
+            comentariu: "sfaramat, fara coaja"
+        },{
             nume: "ardei gras",
             cantitate: 1,
-            um: "buc.",
+            um: "buc",
             categorie: "legume",
             comentariu: "tocat cubulete"
         }, {
             nume: "piure de rosii",
             cantitate: 1,
-            um: "lg.",
+            um: "lg",
             categorie: "alte",
             comentariu: "sos de rosii concentrat"
         }, {
@@ -59,7 +65,7 @@ db.retete.insert({
         }, {
             nume: "busuioc",
             cantitate: 2,
-            um: "tije",
+            um: "creng",
             categorie: "condimente",
             comentariu: "tocat"
         }, {
@@ -83,11 +89,11 @@ db.retete.insert({
     instructiuni: [{
         ordine: 1,
         pentru: "tocanita",
-        text: "Caleste ceapa in grasime de gatit 10 min. Adauga mielul tocat cuburi, usturoiul, ardeiul rosu si piureul de rosii. Varsa sosul de rosii, 400 ml apa si busuioc. Adauga sare dupa gust, pune capacul si pune la fiert inabusit o ora jumatate,pana cand carnea e frageda. Sau pune totul la cuptor (150°C/foc mic) pentru 2 ore."
+        text: "Caleste ceapa in grasime de gatit 10 min. Adauga mielul tocat cuburi, usturoiul, ardeiul rosu si piureul de rosii. Varsa sosul de rosii, 400 ml apa si busuioc. Adauga sare dupa gust, pune capacul si pune la fiert inabusit o ora jumatate,pana cand carnea e frageda. Sau pune totul la cuptor (150°C/foc mic) pentru 2 ore"
     }, {
         ordine: 2,
         pentru: "couscous",
-        text: "Pune couscous-ul intr-un bol mare si toarna supa de pui clocotita peste. Ar trebui ca abia sa il acopere. Lasa-l sa stea acoperit cu un capac 10 min. Aeriseste-l cu o furculita inainte de servire."
+        text: "Pune couscous-ul intr-un bol mare si toarna supa de pui clocotita peste. Ar trebui ca abia sa il acopere. Lasa-l sa stea acoperit cu un capac 10 min. Aeriseste-l cu o furculita inainte de servire"
     }]
 });
 
