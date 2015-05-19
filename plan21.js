@@ -8,8 +8,8 @@ db.retete.find({
         db.plan.insert({
             nume: "Plan #21/2015",
             saptamana: 21,
-            prima_zi: new Date(2015, 5, 18),
-            ultima_zi:  new Date(2015, 5, 24),
+            prima_zi: new Date(2015, 4, 18),
+            ultima_zi:  new Date(2015, 4, 24),
             an: 2015,
             pinterest_url: "https://www.pinterest.com/plandemasa/plan-212005/",
             zile: [{
