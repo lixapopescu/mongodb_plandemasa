@@ -33,45 +33,54 @@ db.retete.insert({
             nume: "",
             cantitate: ,
             um: "",
-            categorie: "",
-            comentariu: ""
+            categorie: ""
         }, {
             nume: "",
             cantitate: ,
             um: "",
-            categorie: "",
-            comentariu: ""
+            categorie: ""
         }, {
             nume: "",
             cantitate: ,
             um: "",
-            categorie: "",
-            comentariu: ""
+            categorie: ""
         }, {
             nume: "",
             cantitate: ,
             um: "",
-            categorie: "",
-            comentariu: ""
+            categorie: ""
         }, {
             nume: "",
             cantitate: ,
             um: "",
-            categorie: "",
-            comentariu: ""
+            categorie: ""
         }, {
             nume: "",
             cantitate: ,
             um: "",
-            categorie: "",
-            comentariu: ""
+            categorie: ""
+        }, {
+            nume: "",
+            cantitate: ,
+            um: "",
+            categorie: ""
+        }]
+    }, {
+        pentru: "",
+        lista: [{
+            nume: "",
+            cantitate: ,
+            um: "",
+            categorie: ""
         }]
     }],
     instructiuni: [{
         ordine: 1,
+        pentru: "",
         text: ""
     }, {
-        ordine: ,
+        ordine: 2,
+        pentru: "",
         text: ""
     }, {
         ordine: ,
