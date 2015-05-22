@@ -24,7 +24,8 @@ db.retete.insert({
             nume: "salota",
             cantitate: 1,
             um: "buc",
-            categorie: "sau ceapa mica"
+            categorie: "legume",
+            comentariu: "sau ceapa mica"
         }, {
             nume: "grasime de gatit",
             categorie: "alte"
