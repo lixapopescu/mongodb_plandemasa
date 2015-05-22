@@ -4,6 +4,7 @@ db.retete.insert({
     origine_limba: "ro",
     origine: "iulianaflorentina.blogspot.be",
     etichete: ["pastai", "fasole galbena", "vegetarian"],
+    poza: "http://2.bp.blogspot.com/-zBThQjo2X3g/T9iA4z3rssI/AAAAAAAAC8w/Cqg-BAmVHJE/s640/DSCN6865.JPG",
     persoane: 4,
     nivel: 1,
     limba: "ro",

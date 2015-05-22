@@ -1,9 +1,10 @@
 db.retete.insert({
     nume: "Crap la cuptor cu salata de fasole verde",
-    origine_url: "http://www.jamieoliver.com/recipes/vegetables-recipes/good-old-french-bean-salad/#IjH7iAJ2PdR5UuEj.97",
+    origine_url: "http://www.jamieoliver.com/recipes/vegetables-recipes/good-old-french-bean-salad/",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
     etichete: ["peste", "fasole verde"],
+    poza: "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/233_1_1350898654_lrg.jpg",
     persoane: 4,
     timp: 80,
     nivel: 1,

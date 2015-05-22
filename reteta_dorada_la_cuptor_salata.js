@@ -4,6 +4,7 @@ db.retete.insert({
     origine_limba: "fr",
     origine: "http://recettessimples.fr/",
     etichete: ["dorada", "salata verde"],
+    poza: "http://recettes.viabloga.com/images/Dorade_Portion_cuite_t.jpg",
     persoane: 4,
     nivel: 1,
     limba: "ro",
