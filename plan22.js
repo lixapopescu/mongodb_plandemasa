@@ -101,7 +101,7 @@ db.retete.find({
         }, {
             $addToSet: {
                 zile: {
-                    index: 5,
+                    index: 6,
                     nume: "Sambata",
                     abreviatie: "E",
                     retete: r,
@@ -110,8 +110,32 @@ db.retete.find({
                     indicatii: [{
                         keyword: "marinat",
                         comentariu: "Prepara ciupercile pentru maine si lasa-le la marinat peste noapte"
+                    },{
+                        keyword: "marinat",
+                        comentariu: "Pregateste rulada marinata pentru maine."
                     }]
 
+                }
+            }
+        });
+    });
+
+db.retete.find({
+        nume: "Rulada de pui cu unt si usturoi + ciuperci marinate"
+    })
+    .forEach(function(r) {
+        db.plan.update({
+            saptamana: 22,
+            an: 2015
+        }, {
+            $addToSet: {
+                zile: {
+                    index: 7,
+                    nume: "Duminica",
+                    abreviatie: "F",
+                    retete: r,
+                    categorie: "Fel principal",
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196863266/"
                 }
             }
         });

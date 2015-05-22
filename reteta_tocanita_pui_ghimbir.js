@@ -73,7 +73,7 @@ db.retete.insert({
             um: "buc",
             categorie: "legume"
         }, {
-            nume: "cartof",
+            nume: "cartofi",
             cantitate: 100,
             um: "g",
             categorie: "legume"
