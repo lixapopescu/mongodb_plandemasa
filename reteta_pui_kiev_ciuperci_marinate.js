@@ -1,15 +1,15 @@
-var numeReteta = "Somon la tava, de vara";
+var numeReteta = "Rulada de pui cu unt si usturoi + ciuperci marinate";
 
 db.retete.remove({nume: numeReteta});
 print("Removed ", numeReteta);
 
 db.retete.insert({
     nume: numeReteta,
-    origine_url: "",
+    origine_url2: "http://www.recipe.com/chicken-kiev/",
+    origine_url: "http://userealbutter.com/2013/08/11/marinated-mushrooms-recipe/",
     origine_limba: "en",
-    origine: "www.jamieoliver.com",
-    origine_carte: "",
-    etichete: [""],
+    origine: "userealbutter.com",
+    etichete: ["pui", "rulada", "ciuperci", "marinat"],
     poza: "",
     persoane: 4,
     timp: ,

@@ -1,5 +1,10 @@
+var numeReteta = "Pastai cu usturoi";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Pastai cu usturoi",
+    nume: numeReteta,
     origine_url: "http://iulianaflorentina.blogspot.be/2012/06/fasole-pastai-cu-usturoi.html",
     origine_limba: "ro",
     origine: "iulianaflorentina.blogspot.be",
@@ -54,4 +59,6 @@ db.retete.insert({
         ordine: 5,
         text: "Toaca mararul. Pune-l la sfarsit peste pastai."
     }]
-})
+});
+
+print("Added new ", numeReteta);

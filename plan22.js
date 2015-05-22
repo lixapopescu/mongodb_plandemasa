@@ -1,4 +1,7 @@
-db.plan.remove({saptamana: 22, an: 2015});
+db.plan.remove({
+    saptamana: 22,
+    an: 2015
+});
 print("Removed Plan 22/2015");
 
 db.retete.find({
@@ -28,22 +31,21 @@ db.retete.find({
         nume: "Dorada la cuptor cu salada verde"
     })
     .forEach(function(r) {
-            db.plan.update({
-                    saptamana: 22,
-                    an: 2015
-                }, {
-                    $addToSet: {
-                        zile: {
-                            index: 2, //Marti
-                            nume: "Marti",
-                            abreviatie: "B",
-                            retete: r,
-                            categorie: "Fel principal",
-                            pinterest_url: "https://www.pinterest.com/pin/547257792196868130/"
-                        }
-                    }
+        db.plan.update({
+            saptamana: 22,
+            an: 2015
+        }, {
+            $addToSet: {
+                zile: {
+                    index: 2, //Marti
+                    nume: "Marti",
+                    abreviatie: "B",
+                    retete: r,
+                    categorie: "Fel principal",
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196868130/"
                 }
-            );
+            }
+        });
     });
 
 
@@ -51,20 +53,66 @@ db.retete.find({
         nume: "Crap la cuptor cu salata de fasole verde"
     })
     .forEach(function(r) {
-            db.plan.update({
-                    saptamana: 22,
-                    an: 2015
-                }, {
-                    $addToSet: {
-                        zile: {
-                            index: 3, //Marti
-                            nume: "Miercuri",
-                            abreviatie: "C",
-                            retete: r,
-                            categorie: "Fel principal",
-                            pinterest_url: "https://www.pinterest.com/pin/547257792196863385/"
-                        }
-                    }
+        db.plan.update({
+            saptamana: 22,
+            an: 2015
+        }, {
+            $addToSet: {
+                zile: {
+                    index: 3,
+                    nume: "Miercuri",
+                    abreviatie: "C",
+                    retete: r,
+                    categorie: "Fel principal",
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196863385/"
                 }
-            );
+            }
+        });
+    });
+
+db.retete.find({
+        nume: "Tocanita de pui cu ghimbir"
+    })
+    .forEach(function(r) {
+        db.plan.update({
+            saptamana: 22,
+            an: 2015
+        }, {
+            $addToSet: {
+                zile: {
+                    index: 4, //Joi
+                    nume: "Joi",
+                    abreviatie: "D",
+                    retete: r,
+                    categorie: "Fel principal",
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196863372/"
+                }
+            }
+        });
+    });
+
+db.retete.find({
+        nume: "Hamburger de peste, cu sos tartar si salata"
+    })
+    .forEach(function(r) {
+        db.plan.update({
+            saptamana: 22,
+            an: 2015
+        }, {
+            $addToSet: {
+                zile: {
+                    index: 5,
+                    nume: "Sambata",
+                    abreviatie: "E",
+                    retete: r,
+                    categorie: "Fel principal",
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196863372/",
+                    indicatii: [{
+                        keyword: "marinat",
+                        comentariu: "Prepara ciupercile pentru maine si lasa-le la marinat peste noapte"
+                    }]
+
+                }
+            }
+        });
     });
