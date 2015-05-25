@@ -70,7 +70,7 @@ db.retete.insert({
         },{
             nume: "usturoi",
             cantitate: 1,
-            um: "buc",
+            um: "cat",
             categorie: "condimente",
             comentariu: "pisat"
         },{

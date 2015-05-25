@@ -117,7 +117,7 @@ db.retete.insert({
     instructiuni: [{
         ordine: 1,
         pentru: "peste",
-        text: "Incalzeste cuptorul la 180°C. Curata si spala crapul. Cresteaza-l pe diagonala. Toaca patrunjelul si taie rondele lamaia si pune-le inauntru si deasupra. Toaca usturoiul si pune-l in crestaturi. Pune deasupra boia. Asezoneaza."
+        text: "Cuptor: 180°C. Curata si spala crapul. Cresteaza-l pe diagonala. Toaca patrunjelul si taie rondele lamaia si pune-le inauntru si deasupra. Toaca usturoiul si pune-l in crestaturi. Pune deasupra boia. Asezoneaza."
     }, {
         ordine: 2,
         pentru: "peste",
