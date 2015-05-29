@@ -1,5 +1,10 @@
+var numeReteta = "Crap la cuptor cu salata de fasole verde";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Crap la cuptor cu salata de fasole verde",
+    nume: numeReteta,
     origine_url: "http://www.jamieoliver.com/recipes/vegetables-recipes/good-old-french-bean-salad/",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
@@ -90,7 +95,8 @@ db.retete.insert({
             nume: "salota",
             cantitate: 1,
             um: "buc",
-            categorie: "sau o ceapa mica"
+            categorie: "legume",
+            comentariu: "sau o ceapa mica"
         }, {
             nume: "capere",
             cantitate: 1,
@@ -111,7 +117,7 @@ db.retete.insert({
     instructiuni: [{
         ordine: 1,
         pentru: "peste",
-        text: "Incalzeste cuptorul la 180°C. Curata si spala crapul. Cresteaza-l pe diagonala. Toaca patrunjelul si taie rondele lamaia si pune-le inauntru si deasupra. Toaca usturoiul si pune-l in crestaturi. Pune deasupra boia. Asezoneaza."
+        text: "Cuptor: 180°C. Curata si spala crapul. Cresteaza-l pe diagonala. Toaca patrunjelul si taie rondele lamaia si pune-le inauntru si deasupra. Toaca usturoiul si pune-l in crestaturi. Pune deasupra boia. Asezoneaza."
     }, {
         ordine: 2,
         pentru: "peste",
@@ -133,4 +139,6 @@ db.retete.insert({
         pentru: "salata",
         text: "Strecoara fasolea si cat e calda, amesteca repede cu sosul. Imprastie caprifoi peste."
     }]
-})
+});
+
+print("Added new ", numeReteta);

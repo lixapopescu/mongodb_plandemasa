@@ -1,60 +1,58 @@
 db.plan.remove({
-    saptamana: 22,
+    saptamana: 23,
     an: 2015
 });
-print("Removed Plan 22/2015");
+print("Removed Plan 23/2015");
 
 db.retete.find({
-        nume: "Pastai cu usturoi"
+        nume: "Salata greceasca"
     })
     .forEach(function(r) {
         db.plan.insert({
-            nume: "Plan #22/2015",
-            saptamana: 22,
-            prima_zi: new Date('May 25, 2015'),
-            ultima_zi: new Date('May 31, 2015'),
+            nume: "Plan #23/2015",
+            saptamana: 23,
+            prima_zi: new Date('Jun 1, 2015'),
+            ultima_zi: new Date('Jun 7, 2015'),
             an: 2015,
-            pinterest_url: "https://www.pinterest.com/plandemasa/plan-22-2015/",
+            pinterest_url: "https://www.pinterest.com/plandemasa/plan-23-2015/",
             zile: [{
                 index: 1, //Luni
                 nume: "Luni",
                 abreviatie: "A",
                 retete: r,
                 categorie: "Fel principal",
-                pinterest_url: "https://www.pinterest.com/pin/547257792196863440/"
+                pinterest_url: "https://www.pinterest.com/pin/547257792196915470/"
             }]
         });
 
     });
 
 db.retete.find({
-        nume: "Dorada la cuptor cu salada verde"
+        nume: "Salata nicoise"
     })
     .forEach(function(r) {
         db.plan.update({
-            saptamana: 22,
+            saptamana: 23,
             an: 2015
         }, {
             $addToSet: {
                 zile: {
-                    index: 2, //Marti
+                    index: 2,
                     nume: "Marti",
                     abreviatie: "B",
                     retete: r,
                     categorie: "Fel principal",
-                    pinterest_url: "https://www.pinterest.com/pin/547257792196868130/"
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196915462/"
                 }
             }
         });
     });
-
-
 db.retete.find({
-        nume: "Crap la cuptor cu salata de fasole verde"
+        nume: "Pui cu orez si mazare"
     })
     .forEach(function(r) {
         db.plan.update({
-            saptamana: 22,
+            saptamana: 23,
             an: 2015
         }, {
             $addToSet: {
@@ -64,39 +62,39 @@ db.retete.find({
                     abreviatie: "C",
                     retete: r,
                     categorie: "Fel principal",
-                    pinterest_url: "https://www.pinterest.com/pin/547257792196863385/"
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196915373/"
                 }
             }
         });
     });
 
 db.retete.find({
-        nume: "Tocanita de pui cu ghimbir"
+        nume: "Pui cu rozmarin si usturoi + salata de castraveti"
     })
     .forEach(function(r) {
         db.plan.update({
-            saptamana: 22,
+            saptamana: 23,
             an: 2015
         }, {
             $addToSet: {
                 zile: {
-                    index: 4, //Joi
+                    index: 4,
                     nume: "Joi",
                     abreviatie: "D",
                     retete: r,
                     categorie: "Fel principal",
-                    pinterest_url: "https://www.pinterest.com/pin/547257792196863372/"
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196915342/"
                 }
             }
         });
     });
 
 db.retete.find({
-        nume: "Hamburger de peste, cu sos tartar si salata"
+        nume: "Pui manastiresc"
     })
     .forEach(function(r) {
         db.plan.update({
-            saptamana: 22,
+            saptamana: 23,
             an: 2015
         }, {
             $addToSet: {
@@ -106,26 +104,18 @@ db.retete.find({
                     abreviatie: "E",
                     retete: r,
                     categorie: "Fel principal",
-                    pinterest_url: "https://www.pinterest.com/pin/547257792196863372/",
-                    indicatii: [{
-                        keyword: "marinat",
-                        comentariu: "Prepara ciupercile pentru maine si lasa-le la marinat peste noapte"
-                    },{
-                        keyword: "marinat",
-                        comentariu: "Pregateste rulada marinata pentru maine."
-                    }]
-
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196915293/"
                 }
             }
         });
     });
 
 db.retete.find({
-        nume: "Rulada de pui cu unt si usturoi + ciuperci marinate"
+        nume: "Salata de paste, cu rosii si masline"
     })
     .forEach(function(r) {
         db.plan.update({
-            saptamana: 22,
+            saptamana: 23,
             an: 2015
         }, {
             $addToSet: {
@@ -135,8 +125,9 @@ db.retete.find({
                     abreviatie: "F",
                     retete: r,
                     categorie: "Fel principal",
-                    pinterest_url: "https://www.pinterest.com/pin/547257792196863266/"
+                    pinterest_url: "https://www.pinterest.com/pin/547257792196915275/"
                 }
             }
         });
     });
+

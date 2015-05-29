@@ -1,10 +1,16 @@
+var numeReteta = "Somon la tava, de vara";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "",
+    nume: numeReteta,
     origine_url: "",
     origine_limba: "en",
     origine: "www.jamieoliver.com",
     origine_carte: "",
     etichete: [""],
+    poza: "",
     persoane: 4,
     timp: ,
     nivel: 1,
@@ -77,7 +83,7 @@ db.retete.insert({
     instructiuni: [{
         ordine: 1,
         pentru: "",
-        text: ""
+        text: "°C"
     }, {
         ordine: 2,
         pentru: "",
@@ -111,3 +117,5 @@ db.retete.insert({
         text: ""
     }]
 })
+
+print("Added new ", numeReteta);

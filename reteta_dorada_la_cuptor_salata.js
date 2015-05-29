@@ -1,5 +1,10 @@
+var numeReteta = "Dorada la cuptor cu salada verde";
+
+db.retete.remove({nume: numeReteta});
+print("Removed ", numeReteta);
+
 db.retete.insert({
-    nume: "Dorada la cuptor cu salada verde",
+    nume: numeReteta,
     origine_url: "http://recettessimples.fr/news/dorade-portion-au-vin-blanc",
     origine_limba: "fr",
     origine: "http://recettessimples.fr/",
@@ -19,7 +24,8 @@ db.retete.insert({
             nume: "salota",
             cantitate: 1,
             um: "buc",
-            categorie: "sau ceapa mica"
+            categorie: "legume",
+            comentariu: "sau ceapa mica"
         }, {
             nume: "grasime de gatit",
             categorie: "alte"
@@ -85,6 +91,9 @@ db.retete.insert({
         text: "Spala si toaca salata si pune-o intr-un bol mare."
     }, {
         ordine: 5,
+        pentru: "salata",
         text: "Amesteca restul ingredientelor intr-un borcan mic, pana la emulsie. Toarna sosul peste salata si amesteca."
     }]
-})
+});
+
+print("Added new ", numeReteta);
