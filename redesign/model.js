@@ -47,7 +47,7 @@ fixed_planning:{
 	days:[{
 		index: 1, //start from 0 (start_date+index => current_date)
 		abbrev: "A",
-		recipe:  //collection of sub-recipes
+		daily_planning:  //planning._id
 		pinterest_url: ""
 	}]
 }
