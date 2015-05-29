@@ -16,7 +16,7 @@ recipes{
 	level:
 	language: "ro"
 	ingredients: [{
-		for: "peste",
+		for_what: "peste",
 		list:[{
 			name: "crap",
 			quantity: 2,
@@ -26,11 +26,11 @@ recipes{
 	},
 	instructions:[{
 		order: 1,
-		for: "peste",
+		for_what: "peste",
 		text: "bla blas"
 	}],
 	comments:[{
-		user: user_name 
+		user: username 
 		text:
 		rating: "de succes" / "o sa mai gatesc" / "nu si nu si nu"
 	}
@@ -39,7 +39,7 @@ recipes{
 
 
 fixed_planning:{
-	user_name: //for public planning, default to "public"
+	username: //for public planning, default to "public"
 	name: "Plan 22/2015"
 	start_date: {year, month, day}
 	end_date: {year, month, day}
@@ -53,14 +53,14 @@ fixed_planning:{
 }
 
 planning: {
-	user_name: //for public planning, default to "public"
+	username: //for public planning, default to "public"
 	date: {year, month, day}
 	recipe: //sub-recipes mingled for the day
 }
 
 users: {
 	name:
-	user_name: // = _id = email
+	username: // = _id = email
 	password:
 	facebook: {}
 	google: {}
@@ -72,7 +72,7 @@ calendar:{
 }
 
 rules_daily:{
-	user_name:
+	username:
 	day_index: 0..6 //Monday .. Sunday
 	label_yes: ["peste", "salata"]
 	label_no: ["paste"]
@@ -81,13 +81,13 @@ rules_daily:{
 }
 
 rules_global:{
-	user_name:
+	username:
 	calendar: true/false
 	calendar_expand: 0.5/1/2 //expand calendar to number of months in either side of season span
 }
 
 logs:{ //user_actions & public_actions
-	user_name
+	username
 	action: close/shuffle/click button/save/login/logout/visit_link
 	parameters: []
 	timestamp:
