@@ -1,4 +1,4 @@
-{
+db.fixed_planning.insert({
     "_id" : ObjectId("556da6cb5540f76e43f38bed"),
     "username" : "website",
     "name" : "Plan #24 / 2015",
@@ -971,4 +971,4 @@
             }
         }
     ]
-}
+});
