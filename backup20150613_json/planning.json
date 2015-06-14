@@ -1,4 +1,4 @@
-/* 0 */
+db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c068"),
     "username" : "website",
@@ -139,7 +139,7 @@
     }
 }
 
-/* 1 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556cd3c0e08c7b35ecbd9f97"),
     "username" : "website",
@@ -259,7 +259,7 @@
     }
 }
 
-/* 2 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2aca19356e6aa41c055"),
     "username" : "website",
@@ -371,7 +371,7 @@
     }
 }
 
-/* 3 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05a"),
     "username" : "website",
@@ -588,7 +588,7 @@
     }
 }
 
-/* 4 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05c"),
     "username" : "website",
@@ -724,7 +724,7 @@
     }
 }
 
-/* 5 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05d"),
     "username" : "website",
@@ -927,7 +927,7 @@
     }
 }
 
-/* 6 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05e"),
     "username" : "website",
@@ -1102,7 +1102,7 @@
     }
 }
 
-/* 7 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05f"),
     "username" : "website",
@@ -1403,7 +1403,7 @@
     }
 }
 
-/* 8 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c060"),
     "username" : "website",
@@ -1687,7 +1687,7 @@
     }
 }
 
-/* 9 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c061"),
     "username" : "website",
@@ -1827,7 +1827,7 @@
     }
 }
 
-/* 10 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c063"),
     "username" : "website",
@@ -1970,7 +1970,7 @@
     }
 }
 
-/* 11 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c064"),
     "username" : "website",
@@ -2166,7 +2166,7 @@
     }
 }
 
-/* 12 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c065"),
     "username" : "website",
@@ -2298,7 +2298,7 @@
     }
 }
 
-/* 13 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c066"),
     "username" : "website",
@@ -2478,7 +2478,7 @@
     }
 }
 
-/* 14 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c067"),
     "username" : "website",
@@ -2631,7 +2631,7 @@
     }
 }
 
-/* 15 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2aca19356e6aa41c057"),
     "username" : "website",
@@ -2850,7 +2850,7 @@
     }
 }
 
-/* 16 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2aca19356e6aa41c058"),
     "username" : "website",
@@ -3028,7 +3028,7 @@
     }
 }
 
-/* 17 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556e106882698c701277f042"),
     "dateString" : "10/06/2015",
@@ -3261,7 +3261,7 @@
     "date" : ISODate("2015-06-10T00:00:00.000+02:00")
 }
 
-/* 18 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556ec44675c308d5decd24b2"),
     "username" : "website",
@@ -3457,7 +3457,7 @@
     }
 }
 
-/* 19 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556ec9e5ec46fe161fee4154"),
     "dateString" : "13/06/2015",
@@ -3613,7 +3613,7 @@
     "date" : ISODate("2015-06-13T00:00:00.000+02:00")
 }
 
-/* 20 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556f688ccbd515ca0d6b7638"),
     "dateString" : "14/06/2015",
@@ -3723,7 +3723,7 @@
     "date" : ISODate("2015-06-14T00:00:00.000+02:00")
 }
 
-/* 21 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5574b1474e5eb96582d82b69"),
     "username" : "website",
@@ -3851,7 +3851,7 @@
     }
 }
 
-/* 22 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557c903c364b968e06e9dddd"),
     "dateString" : "21/06/2015",
@@ -3967,7 +3967,7 @@
     "date" : ISODate("2015-06-21T00:00:00.000+02:00")
 }
 
-/* 23 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557cb256145d728624620c79"),
     "dateString" : "15/06/2015",
@@ -4130,7 +4130,7 @@
     "date" : ISODate("2015-06-15T00:00:00.000+02:00")
 }
 
-/* 24 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d39399657cf8905dd49f5"),
     "dateString" : "16/06/2015",
@@ -4253,7 +4253,7 @@
     "date" : ISODate("2015-06-16T00:00:00.000+02:00")
 }
 
-/* 25 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d3bab9e7fbfd350e3ce41"),
     "username" : "website",
@@ -4366,7 +4366,7 @@
     }
 }
 
-/* 26 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d3e349e7fbfd350e3ce42"),
     "username" : "website",
@@ -4508,7 +4508,7 @@
     }
 }
 
-/* 27 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d3ef39e7fbfd350e3ce43"),
     "username" : "website",
@@ -4710,4 +4710,4 @@
             }
         ]
     }
-}
+});

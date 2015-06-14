@@ -1,4 +1,4 @@
-/* 0 */
+db.recipes.insert(
 {
     "_id" : "Salata de paste, cu rosii si masline",
     "origin" : {
@@ -135,7 +135,7 @@
     ]
 }
 
-/* 1 */
+); db.recipes.insert(
 {
     "_id" : "Pastai cu usturoi",
     "origin" : {
@@ -243,7 +243,7 @@
     ]
 }
 
-/* 2 */
+); db.recipes.insert(
 {
     "_id" : "Salata nicoise",
     "origin" : {
@@ -434,7 +434,7 @@
     ]
 }
 
-/* 3 */
+); db.recipes.insert(
 {
     "_id" : "Pui cu orez si mazare",
     "origin" : {
@@ -561,7 +561,7 @@
     ]
 }
 
-/* 4 */
+); db.recipes.insert(
 {
     "_id" : "Pui cu rozmarin si usturoi + salata de castraveti",
     "origin" : {
@@ -736,7 +736,7 @@
     ]
 }
 
-/* 5 */
+); db.recipes.insert(
 {
     "_id" : "Pui manastiresc",
     "origin" : {
@@ -884,7 +884,7 @@
     ]
 }
 
-/* 6 */
+); db.recipes.insert(
 {
     "_id" : "Mazare cremoasa cu pui, bacon si ciuperci",
     "name" : "Mazare cremoasa cu pui, bacon si ciuperci",
@@ -997,7 +997,7 @@
     }
 }
 
-/* 7 */
+); db.recipes.insert(
 {
     "_id" : "Pui la cuptor cu rosii si bacon, cartofi si spanac cremos",
     "origin" : {
@@ -1216,7 +1216,7 @@
     }
 }
 
-/* 8 */
+); db.recipes.insert(
 {
     "_id" : "Mihalț sau peste undițar cu sos de masline, telina si piure",
     "origin" : {
@@ -1407,7 +1407,7 @@
     }
 }
 
-/* 9 */
+); db.recipes.insert(
 {
     "_id" : "Pizza",
     "origin" : {
@@ -1503,7 +1503,7 @@
     }
 }
 
-/* 10 */
+); db.recipes.insert(
 {
     "_id" : "Chiftelute de peste la cuptor",
     "origin" : {
@@ -1605,7 +1605,7 @@
     }
 }
 
-/* 11 */
+); db.recipes.insert(
 {
     "_id" : "Pachetele de pui cu mozzarella",
     "origin" : {
@@ -1714,7 +1714,7 @@
     }
 }
 
-/* 12 */
+); db.recipes.insert(
 {
     "_id" : "Perisoare cu sos de rosii",
     "origin" : {
@@ -1884,7 +1884,7 @@
     ]
 }
 
-/* 13 */
+); db.recipes.insert(
 {
     "_id" : "Hamburger de peste cu salata",
     "origin" : {
@@ -2125,7 +2125,7 @@
     ]
 }
 
-/* 14 */
+); db.recipes.insert(
 {
     "_id" : "Dorada la cuptor cu salada verde",
     "origin" : {
@@ -2271,7 +2271,7 @@
     ]
 }
 
-/* 15 */
+); db.recipes.insert(
 {
     "_id" : "Crap la cuptor cu salata de fasole verde",
     "origin" : {
@@ -2485,7 +2485,7 @@
     ]
 }
 
-/* 16 */
+); db.recipes.insert(
 {
     "_id" : "Tocanita de pui cu ghimbir",
     "origin" : {
@@ -2658,7 +2658,7 @@
     ]
 }
 
-/* 17 */
+); db.recipes.insert(
 {
     "_id" : "Hamburger de peste, cu sos tartar si salata",
     "origin" : {
@@ -2899,7 +2899,7 @@
     ]
 }
 
-/* 18 */
+); db.recipes.insert(
 {
     "_id" : "Rulada de pui cu unt si usturoi + ciuperci marinate",
     "origin" : {
@@ -3111,7 +3111,7 @@
     ]
 }
 
-/* 19 */
+); db.recipes.insert(
 {
     "_id" : "Salata de pastrav afumat cu cartofi noi",
     "origin" : {
@@ -3242,7 +3242,7 @@
     ]
 }
 
-/* 20 */
+); db.recipes.insert(
 {
     "_id" : "Somon la tava, de vara",
     "origin" : {
@@ -3441,7 +3441,7 @@
     ]
 }
 
-/* 21 */
+); db.recipes.insert(
 {
     "_id" : "Chiftelute cu mozzarella",
     "origin" : {
@@ -3720,7 +3720,7 @@
     ]
 }
 
-/* 22 */
+); db.recipes.insert(
 {
     "_id" : "Pui cu mustar, cartofi rapizi si verdeturi",
     "origin" : {
@@ -4016,7 +4016,7 @@
     ]
 }
 
-/* 23 */
+); db.recipes.insert(
 {
     "_id" : "Tocanita de miel cu couscous",
     "origin" : {
@@ -4151,7 +4151,7 @@
     ]
 }
 
-/* 24 */
+); db.recipes.insert(
 {
     "_id" : "Salata greceasca",
     "origin" : {
@@ -4289,7 +4289,7 @@
     ]
 }
 
-/* 25 */
+); db.recipes.insert(
 {
     "_id" : "Paste cu sos pesto",
     "origin" : {
@@ -4412,7 +4412,7 @@
     }
 }
 
-/* 26 */
+); db.recipes.insert(
 {
     "_id" : "Cotlet de miel cu sos racoritor de busioc, la gratar",
     "origin" : {
@@ -4554,7 +4554,7 @@
     }
 }
 
-/* 27 */
+); db.recipes.insert(
 {
     "_id" : "Carnati la cuptor, cu piure de masline si sos de mustar",
     "origin" : {
@@ -4701,4 +4701,4 @@
         "user" : "website",
         "date" : ISODate("2015-06-14T00:44:37.600+02:00")
     }
-}
+});
