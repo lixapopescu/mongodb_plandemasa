@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":NumberInt(1),"key":{"_id":NumberInt(1)},"name":"_id_","ns":"plandemasa.plan"},{"v":NumberInt(1),"unique":true,"key":{"zile.retete.nume":NumberInt(1)},"name":"zile.retete.nume_1","ns":"plandemasa.plan","background":true,"safe":null}]}

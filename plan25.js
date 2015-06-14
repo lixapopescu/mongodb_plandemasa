@@ -215,3 +215,37 @@ db.planning.insert(
     },
     "date" : ISODate("2015-06-21T00:00:00.000+02:00")
 });
+
+db.recipes.find({
+    _id: "Pastai cu usturoi"
+}).forEach(function(r) {
+    db.planning.insert({
+        username: "website",
+        date: new Date('Jun 17, 2015'),
+        recipe: r
+    })
+});
+
+
+
+db.recipes.find({
+    _id: "Salata de paste, cu rosii si masline"
+}).forEach(function(r) {
+    db.planning.insert({
+        username: "website",
+        date: new Date('Jun 18, 2015'),
+        recipe: r
+    })
+});
+
+
+
+db.recipes.find({
+    _id: "Somon la tava, de vara"
+}).forEach(function(r) {
+    db.planning.insert({
+        username: "website",
+        date: new Date('Jun 20, 2015'),
+        recipe: r
+    })
+});
