@@ -1,3 +1,2 @@
 db.plan.drop();
-db.retete.drop()
-;
+db.retete.drop();

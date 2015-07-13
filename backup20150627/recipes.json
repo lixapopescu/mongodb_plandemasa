@@ -1,4 +1,4 @@
-/* 0 */
+db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73297"),
     "name" : "Mazare cremoasa cu pui, bacon si ciuperci",
@@ -114,7 +114,7 @@
     "picture" : null
 }
 
-/* 1 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c7329a"),
     "origin" : {
@@ -212,7 +212,7 @@
     "picture" : null
 }
 
-/* 2 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c7329b"),
     "origin" : {
@@ -321,7 +321,7 @@
     }
 }
 
-/* 3 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73291"),
     "origin" : {
@@ -330,7 +330,7 @@
         "image" : "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/603_1_1350912852_lrg.jpg",
         "copyright" : "JamieOliver.com"
     },
-    "image" : "/assets/images/recipes/salata_paste_rosii_closeup.jpg",
+    "image" : "salata_paste_rosii_closeup.jpg",
     "labels" : [ 
         "salata", 
         "paste"
@@ -466,7 +466,7 @@
     }
 }
 
-/* 4 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73293"),
     "origin" : {
@@ -660,7 +660,7 @@
     "picture" : null
 }
 
-/* 5 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73294"),
     "origin" : {
@@ -790,7 +790,7 @@
     "picture" : null
 }
 
-/* 6 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73295"),
     "origin" : {
@@ -968,7 +968,7 @@
     "picture" : null
 }
 
-/* 7 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73296"),
     "origin" : {
@@ -1119,7 +1119,7 @@
     "picture" : null
 }
 
-/* 8 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73298"),
     "origin" : {
@@ -1340,7 +1340,7 @@
     "picture" : null
 }
 
-/* 9 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73299"),
     "origin" : {
@@ -1533,7 +1533,7 @@
     "picture" : null
 }
 
-/* 10 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c7329c"),
     "origin" : {
@@ -1706,7 +1706,7 @@
     "picture" : null
 }
 
-/* 11 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c7329d"),
     "origin" : {
@@ -1950,7 +1950,7 @@
     "picture" : null
 }
 
-/* 12 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c7329e"),
     "origin" : {
@@ -2099,7 +2099,7 @@
     "picture" : null
 }
 
-/* 13 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c7329f"),
     "origin" : {
@@ -2316,7 +2316,7 @@
     "picture" : null
 }
 
-/* 14 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a0"),
     "origin" : {
@@ -2492,7 +2492,7 @@
     "picture" : null
 }
 
-/* 15 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a1"),
     "origin" : {
@@ -2736,7 +2736,7 @@
     "picture" : null
 }
 
-/* 16 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a2"),
     "origin" : {
@@ -2951,7 +2951,7 @@
     "picture" : null
 }
 
-/* 17 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a3"),
     "origin" : {
@@ -3085,7 +3085,7 @@
     "picture" : null
 }
 
-/* 18 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a4"),
     "origin" : {
@@ -3292,7 +3292,7 @@
     }
 }
 
-/* 19 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a5"),
     "origin" : {
@@ -3579,7 +3579,7 @@
     }
 }
 
-/* 20 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a6"),
     "origin" : {
@@ -3878,7 +3878,7 @@
     "picture" : null
 }
 
-/* 21 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a7"),
     "origin" : {
@@ -4016,7 +4016,7 @@
     "picture" : null
 }
 
-/* 22 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a8"),
     "origin" : {
@@ -4157,7 +4157,7 @@
     "picture" : null
 }
 
-/* 23 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732a9"),
     "origin" : {
@@ -4282,7 +4282,7 @@
     "picture" : null
 }
 
-/* 24 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732aa"),
     "origin" : {
@@ -4426,7 +4426,7 @@
     "picture" : null
 }
 
-/* 25 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732ab"),
     "origin" : {
@@ -4582,7 +4582,7 @@
     }
 }
 
-/* 26 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c73292"),
     "origin" : {
@@ -4698,7 +4698,7 @@
     }
 }
 
-/* 27 */
+); db.recipes.insert(
 {
     "_id" : ObjectId("558b192969f2d08d80c732ac"),
     "origin" : {
@@ -4812,4 +4812,4 @@
         "lg" : "/assets/recipes/rulada_pui_unt_usturoi_mozzarella_crud_250_300_lg.jpg",
         "gt_lg" : "/assets/recipes/rulada_pui_unt_usturoi_mozzarella_crud_250_300_gt_lg.jpg"
     }
-}
+});

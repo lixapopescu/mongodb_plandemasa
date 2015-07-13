@@ -1,4 +1,4 @@
-/* 0 */
+db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c068"),
     "username" : "website",
@@ -11,7 +11,7 @@
             "image" : "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/603_1_1350912852_lrg.jpg",
             "copyright" : "JamieOliver.com"
         },
-        "image" : "/assets/images/recipes/salata_paste_rosii_closeup.jpg",
+        "image" : "salata_paste_rosii_closeup.jpg",
         "labels" : [ 
             "salata", 
             "paste"
@@ -142,7 +142,7 @@
     }
 }
 
-/* 1 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2aca19356e6aa41c055"),
     "username" : "website",
@@ -258,7 +258,7 @@
     "title" : ObjectId("5568d2aca19356e6aa41c055")
 }
 
-/* 2 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05a"),
     "username" : "website",
@@ -478,7 +478,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c05a")
 }
 
-/* 3 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05c"),
     "username" : "website",
@@ -617,7 +617,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c05c")
 }
 
-/* 4 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05d"),
     "username" : "website",
@@ -824,7 +824,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c05d")
 }
 
-/* 5 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05e"),
     "username" : "website",
@@ -1002,7 +1002,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c05e")
 }
 
-/* 6 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c05f"),
     "username" : "website",
@@ -1306,7 +1306,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c05f")
 }
 
-/* 7 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c060"),
     "username" : "website",
@@ -1316,9 +1316,9 @@
         "origin" : {
             "url" : "http://www.timkemp.com/recipes/entree/jamiemeatball.htm",
             "language" : "en",
-            "image" : "/assets/images/recipes/chiftelute_sos_rosii_mozzarella_parmezan.jpg",
             "copyright" : "The Naked Chef"
         },
+        "image" : "chiftelute_sos_rosii_mozzarella_parmezan.jpg",
         "labels" : [ 
             "carne tocata", 
             "sos de rosii", 
@@ -1593,7 +1593,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c060")
 }
 
-/* 8 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c061"),
     "username" : "website",
@@ -1736,7 +1736,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c061")
 }
 
-/* 9 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c063"),
     "username" : "website",
@@ -1882,7 +1882,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c063")
 }
 
-/* 10 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c064"),
     "username" : "website",
@@ -2081,7 +2081,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c064")
 }
 
-/* 11 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c065"),
     "username" : "website",
@@ -2216,7 +2216,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c065")
 }
 
-/* 12 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c066"),
     "username" : "website",
@@ -2399,7 +2399,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c066")
 }
 
-/* 13 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2ada19356e6aa41c067"),
     "username" : "website",
@@ -2555,7 +2555,7 @@
     "title" : ObjectId("5568d2ada19356e6aa41c067")
 }
 
-/* 14 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2aca19356e6aa41c057"),
     "username" : "website",
@@ -2777,7 +2777,7 @@
     "title" : ObjectId("5568d2aca19356e6aa41c057")
 }
 
-/* 15 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5568d2aca19356e6aa41c058"),
     "username" : "website",
@@ -2958,7 +2958,7 @@
     "title" : ObjectId("5568d2aca19356e6aa41c058")
 }
 
-/* 16 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556e106882698c701277f042"),
     "dateString" : "10/06/2015",
@@ -3193,7 +3193,7 @@
     "title" : ObjectId("556e106882698c701277f042")
 }
 
-/* 17 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556ec44675c308d5decd24b2"),
     "username" : "website",
@@ -3391,7 +3391,7 @@
     "title" : ObjectId("556ec44675c308d5decd24b2")
 }
 
-/* 18 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556ec9e5ec46fe161fee4154"),
     "dateString" : "13/06/2015",
@@ -3549,7 +3549,7 @@
     "title" : ObjectId("556ec9e5ec46fe161fee4154")
 }
 
-/* 19 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556f688ccbd515ca0d6b7638"),
     "dateString" : "14/06/2015",
@@ -3661,7 +3661,7 @@
     "title" : ObjectId("556f688ccbd515ca0d6b7638")
 }
 
-/* 20 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5574b1474e5eb96582d82b69"),
     "username" : "website",
@@ -3791,7 +3791,7 @@
     "title" : ObjectId("5574b1474e5eb96582d82b69")
 }
 
-/* 21 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557c903c364b968e06e9dddd"),
     "dateString" : "21/06/2015",
@@ -3909,7 +3909,7 @@
     "title" : ObjectId("557c903c364b968e06e9dddd")
 }
 
-/* 22 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557cb256145d728624620c79"),
     "dateString" : "15/06/2015",
@@ -4074,7 +4074,7 @@
     "title" : ObjectId("557cb256145d728624620c79")
 }
 
-/* 23 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d39399657cf8905dd49f5"),
     "dateString" : "16/06/2015",
@@ -4199,7 +4199,7 @@
     "title" : ObjectId("557d39399657cf8905dd49f5")
 }
 
-/* 24 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d3bab9e7fbfd350e3ce41"),
     "username" : "website",
@@ -4315,7 +4315,7 @@
     "title" : ObjectId("557d3bab9e7fbfd350e3ce41")
 }
 
-/* 25 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d3e349e7fbfd350e3ce42"),
     "username" : "website",
@@ -4328,7 +4328,7 @@
             "image" : "http://s3-eu-west-1.amazonaws.com/jamieoliverprod/_int/rdb2/upload/603_1_1350912852_lrg.jpg",
             "copyright" : "JamieOliver.com"
         },
-        "image" : "/assets/images/recipes/salata_paste_rosii_closeup.jpg",
+        "image" : "salata_paste_rosii_closeup.jpg",
         "labels" : [ 
             "salata", 
             "paste"
@@ -4460,7 +4460,7 @@
     "title" : ObjectId("557d3e349e7fbfd350e3ce42")
 }
 
-/* 26 */
+); db.planning.insert(
 {
     "_id" : ObjectId("557d3ef39e7fbfd350e3ce43"),
     "username" : "website",
@@ -4667,7 +4667,7 @@
     "title" : ObjectId("557d3ef39e7fbfd350e3ce43")
 }
 
-/* 27 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463661"),
     "username" : "website",
@@ -4813,7 +4813,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463661")
 }
 
-/* 28 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463662"),
     "username" : "website",
@@ -4948,7 +4948,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463662")
 }
 
-/* 29 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463663"),
     "username" : "website",
@@ -5147,7 +5147,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463663")
 }
 
-/* 30 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463664"),
     "username" : "website",
@@ -5296,7 +5296,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463664")
 }
 
-/* 31 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463665"),
     "username" : "website",
@@ -5435,7 +5435,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463665")
 }
 
-/* 32 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463666"),
     "username" : "website",
@@ -5565,7 +5565,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463666")
 }
 
-/* 33 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463667"),
     "username" : "website",
@@ -5681,7 +5681,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463667")
 }
 
-/* 34 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463668"),
     "username" : "website",
@@ -5837,7 +5837,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463668")
 }
 
-/* 35 */
+); db.planning.insert(
 {
     "_id" : ObjectId("5589cda43c3b5533d9463669"),
     "username" : "website",
@@ -6059,7 +6059,7 @@
     "title" : ObjectId("5589cda43c3b5533d9463669")
 }
 
-/* 36 */
+); db.planning.insert(
 {
     "_id" : ObjectId("556cd3c0e08c7b35ecbd9f97"),
     "username" : "website",
@@ -6178,4 +6178,4 @@
         "username" : "website"
     },
     "title" : ObjectId("556cd3c0e08c7b35ecbd9f97")
-}
+});
